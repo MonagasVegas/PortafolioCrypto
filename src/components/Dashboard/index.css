@@ -1,0 +1,14 @@
+.container-Dashboard {
+  background-color: #f4f6f8;
+  height: 65vh;
+  padding: 55px;
+}
+
+.text {
+  color: #1bbc63;
+  font-size: 25px;
+}
+
+.image {
+  width: 380px;
+}

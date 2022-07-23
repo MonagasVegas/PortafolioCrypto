@@ -1,0 +1,14 @@
+.container{
+height: 500px;
+}
+
+.logo-Instagram{
+    color: "#1bbc63";
+    width: 20px;
+    background-color: #1bbc63;
+}
+
+.text-Paragraph{
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}

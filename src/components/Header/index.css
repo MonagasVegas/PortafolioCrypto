@@ -1,0 +1,19 @@
+.container{
+    height: 100px;
+}
+
+.register{
+    background-color: coral;
+}
+
+.root{
+    flex-grow: 1,
+}
+
+.search{
+    border-radius: 10%;
+    margin-top: 35px;
+    background-color: #dbd2d2;
+    width: 150px;
+    height: 40px;
+}
