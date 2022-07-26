@@ -16,5 +16,5 @@ npm run dev
 http://localhost:4000/coins
 ---------------------------------
 
- En el proyecto se ubica una carpeta llamada database que contiene el DUMP de base de datos, Tambien el archivo .env donde se muestra las variables de entorno requeridas.
+Para el resto de los metodos se debe utilizar Postman. Es importante resaltar que en el proyecto se ubica una carpeta llamada database que contiene el DUMP de base de datos, Tambien el archivo .env donde se muestra las variables de entorno requeridas.
 
