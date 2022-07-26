@@ -1,74 +1,11 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+La interfaz de usuario se construyo utilizando React.js apoyandonos en la biblioteca Material-UI y CSS, dandole diseño y estilo en base a las plataformas de cripto  coingecko y coinmarket.
+Se puede vizualizar un modal login, tablas de datos, header, footer y dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Para el Backend, se creo un  CRUD  en un entorno Node.js que se ejecuta en un servidor Express y usa una base de datos PostgreSQL.
 
-## Available Scripts
+Se conecto un servidor Express con PostgreSQL usando node-postgres. Esta API podrá manejar los métodos de solicitud HTTP que corresponden a la base de datos PostgreSQL donde la API obtiene sus datos.
 
-In the project directory, you can run:
+Nuestro objetivo fue permitir operaciones CRUD, GET, POST, PUT y DELETE, en la API, ejecutando los comandos de base de datos correspondientes. Para ello, se configuro una ruta para cada extremo y una función para cada consulta, tenemos un apartado para la tabla COINS el API  lista toda el contenido de la tabla y lista por ID. Un segundo apartado para la tabla REGISTER_PORTFOLIO, Lista, Crea, Actualiza y Elimina datos de la misma. 
 
-### `npm start`
+ En el proyecto se ubica una carpeta llamada database que contiene el DUMP de base de datos, Tambien el archivo .env donde se muestra las variables de entorno requeridas.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# PortafolioCrypto
->>>>>>> 30d29049d5d99681fbd0f7234a23c2ce94bcb419
