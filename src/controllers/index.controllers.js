@@ -12,17 +12,20 @@ const pool = new Pool({
 const getCoins = async (req, res) => {
   const response = await pool.query("SELECT * FROM coins");
   res.status(200).json(response.rows);
+  console.log(response);
 };
 
 const getCoinsById = async (req, res) => {
   const id = req.params.id;
   const response = await pool.query("SELECT * FROM coins WHERE id = $1", [id]);
   res.json(response.rows);
+  console.log(response);
 };
 
 const getRegisterPortfolio = async (req, res) => {
   const response = await pool.query("SELECT * FROM register_portfolio");
   res.status(200).json(response.rows);
+  console.log(response);
 };
 
 const createRegisterPortfolio = async (req, res) => {
